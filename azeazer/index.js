@@ -1,0 +1,67 @@
+const sr = ScrollReveal({
+    duration:2000,
+    reset:true,
+});
+ sr.reveal('.h2_name',{
+    origin:'rigth',
+    distant:'50px'
+ })
+ sr.reveal('.h1_name',{
+    distant:'50px',
+    delay:500
+ })
+ sr.reveal('#h6_name',{
+    distant:'50px',
+    delay:1250
+ })
+ sr.reveal('#block_link',{
+    delay:1900
+ })
+ sr.reveal('#block_icon',{
+    delay:2250
+ })
+sr.reveal('.card',{
+    duration:2000,
+    reset:true,
+});
+
+sr.reveal('#skill',{
+    origin:'left',
+    duration:2000
+})
+sr.reveal('#language',{
+    origin:'rigth',
+    delay:500
+})
+
+sr.reveal('#car',{
+    origin:'left',
+    duration:2000,
+    delay:250
+})
+
+sr.reveal('#satisfaction',{
+    origin:'rigth',
+    delay:500
+})
+sr.reveal('#block_project',{
+    delay:500
+});
+sr.reveal('#lova_about',{
+    origin:'rigth',
+})
+sr.reveal('#lova_p',{
+    delay:500
+})
+sr.reveal('#text_about',{
+    delay:1000
+})
+sr.reveal('#blockImg',{
+    origin:'left'
+});
+sr.reveal('.about_p_style',{
+    delay:1500
+})
+sr.reveal('#ws',{
+    delay:1500
+})
