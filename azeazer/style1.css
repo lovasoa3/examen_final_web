@@ -33,14 +33,22 @@ body{
     color: white;
     background-color: black; 
 }
-.main{
+#home{
     background-image: url(remove.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:75% ;
-    width: 100%;
     height: 100vh;
     
+}
+@media screen and (max-width:950px){
+    #home{
+        background-image: none;
+    }
+    #containerImg{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .soa{

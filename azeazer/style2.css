@@ -42,7 +42,7 @@
     margin-top: 0vh;
     margin-bottom: 5vh;
 }
-.acces{
+.acces1{
     width: 20vh;
     height: 6vh;
     border-radius: 5px;
@@ -54,6 +54,24 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+.acces2{
+    width: 20vh;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.acces2:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 1s;
 }
 .rond{
     width: 8vh;
@@ -81,10 +99,10 @@
 .az{
    color: rgba(0, 0, 0, 0.566);
 }
-@media(max-width){
-    .main{
-        background-image: none;
-    }
+.az:hover{
+    color:blue;
+    background-color: black;
+    scale: 1.1;
 }
 #contact{
     background-color: black;
